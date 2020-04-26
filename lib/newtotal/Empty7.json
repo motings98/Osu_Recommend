@@ -1,0 +1,1481 @@
+{
+    "user_stats": {
+        "username": "Empty7",
+        "joined_date": "2018-09-10 08:11:42",
+        "user_url": "https://osu.ppy.sh/users/13067991",
+        "total_ranked_score": "611796335",
+        "total_score": "3684777250",
+        "accuracy": "87.25482177734375",
+        "play_count": "8235",
+        "total_hits": 1087547,
+        "total_pp": "1977.58",
+        "global_rank": "222775",
+        "county_rank": "9117",
+        "country": "JP"
+    },
+    "best_plays": [
+        {
+            "beatmapset_id": 219763,
+            "beatmap_id": 514516,
+            "acc": 0.8361111111111111,
+            "pp": 121.101,
+            "percentage": 100,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-11-05T10:07:52+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1764213,
+            "acc": 0.7370689655172413,
+            "pp": 120.43,
+            "percentage": 95,
+            "mods": [],
+            "date": "2020-03-08T03:13:45+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1851299,
+            "acc": 0.8156342182890856,
+            "pp": 116.402,
+            "percentage": 90.25,
+            "mods": [],
+            "date": "2020-04-02T15:29:06+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762724,
+            "acc": 0.8628318584070797,
+            "pp": 114.414,
+            "percentage": 85.73749999999998,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-11-05T09:40:35+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 2030843,
+            "acc": 0.8573446327683616,
+            "pp": 114.034,
+            "percentage": 81.45062499999999,
+            "mods": [],
+            "date": "2020-04-02T14:02:41+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675838,
+            "acc": 0.9060077519379846,
+            "pp": 113.155,
+            "percentage": 77.37809374999998,
+            "mods": [],
+            "date": "2020-03-09T13:41:42+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1893461,
+            "acc": 0.8956228956228957,
+            "pp": 111.147,
+            "percentage": 73.50918906249998,
+            "mods": [],
+            "date": "2020-04-02T16:24:05+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1797542,
+            "acc": 0.8046448087431693,
+            "pp": 109.141,
+            "percentage": 69.83372960937497,
+            "mods": [],
+            "date": "2020-04-02T15:39:50+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675832,
+            "acc": 0.9195075757575758,
+            "pp": 109.016,
+            "percentage": 66.34204312890623,
+            "mods": [],
+            "date": "2020-04-08T09:51:34+00:00"
+        },
+        {
+            "beatmapset_id": 1001305,
+            "beatmap_id": 2096051,
+            "acc": 0.8554216867469879,
+            "pp": 108.69,
+            "percentage": 63.02494097246091,
+            "mods": [],
+            "date": "2020-03-08T02:57:15+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1849505,
+            "acc": 0.8613333333333333,
+            "pp": 108.39,
+            "percentage": 59.87369392383787,
+            "mods": [],
+            "date": "2020-04-02T14:48:25+00:00"
+        },
+        {
+            "beatmapset_id": 623924,
+            "beatmap_id": 1474946,
+            "acc": 0.9279661016949152,
+            "pp": 104.705,
+            "percentage": 56.880009227645964,
+            "mods": [],
+            "date": "2020-03-11T13:20:37+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762728,
+            "acc": 0.8715596330275229,
+            "pp": 99.2108,
+            "percentage": 54.03600876626366,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-11-04T01:06:45+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675840,
+            "acc": 0.894990366088632,
+            "pp": 94.0152,
+            "percentage": 51.33420832795048,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-11-02T14:14:26+00:00"
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1810188,
+            "acc": 0.9143730886850153,
+            "pp": 92.403,
+            "percentage": 48.76749791155295,
+            "mods": [],
+            "date": "2020-03-10T04:26:33+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1797548,
+            "acc": 0.8210382513661202,
+            "pp": 90.9205,
+            "percentage": 46.329123015975306,
+            "mods": [],
+            "date": "2020-04-02T15:57:48+00:00"
+        },
+        {
+            "beatmapset_id": 219763,
+            "beatmap_id": 524776,
+            "acc": 0.8858024691358025,
+            "pp": 90.5378,
+            "percentage": 44.012666865176534,
+            "mods": [],
+            "date": "2020-03-11T14:46:19+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1797549,
+            "acc": 0.9065420560747663,
+            "pp": 90.2829,
+            "percentage": 41.812033521917705,
+            "mods": [],
+            "date": "2020-04-02T16:26:53+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675834,
+            "acc": 0.9566074950690335,
+            "pp": 89.3295,
+            "percentage": 39.72143184582182,
+            "mods": [],
+            "date": "2020-03-08T08:33:46+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762730,
+            "acc": 0.8915989159891599,
+            "pp": 86.1292,
+            "percentage": 37.73536025353073,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-11-04T00:59:00+00:00"
+        },
+        {
+            "beatmapset_id": 459149,
+            "beatmap_id": 983680,
+            "acc": 0.8052434456928839,
+            "pp": 85.771,
+            "percentage": 35.84859224085419,
+            "mods": [],
+            "date": "2020-03-11T14:59:43+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675841,
+            "acc": 0.9763313609467456,
+            "pp": 84.5561,
+            "percentage": 34.05616262881148,
+            "mods": [],
+            "date": "2020-03-09T07:35:24+00:00"
+        },
+        {
+            "beatmapset_id": 1015930,
+            "beatmap_id": 2126411,
+            "acc": 0.8779128672745694,
+            "pp": 83.1665,
+            "percentage": 32.3533544973709,
+            "mods": [],
+            "date": "2020-04-09T15:16:01+00:00"
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1846237,
+            "acc": 0.9365079365079365,
+            "pp": 83.036,
+            "percentage": 30.73568677250236,
+            "mods": [],
+            "date": "2020-03-09T07:45:23+00:00"
+        },
+        {
+            "beatmapset_id": 363579,
+            "beatmap_id": 813200,
+            "acc": 0.8955365622032289,
+            "pp": 81.9228,
+            "percentage": 29.198902433877237,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-08-14T13:45:33+00:00"
+        },
+        {
+            "beatmapset_id": 652412,
+            "beatmap_id": 1396152,
+            "acc": 0.7916666666666666,
+            "pp": 78.9251,
+            "percentage": 27.738957312183377,
+            "mods": [],
+            "date": "2020-03-08T07:58:34+00:00"
+        },
+        {
+            "beatmapset_id": 371128,
+            "beatmap_id": 827932,
+            "acc": 0.9427402862985685,
+            "pp": 78.836,
+            "percentage": 26.352009446574204,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-02-10T12:26:00+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675842,
+            "acc": 0.9171483622350675,
+            "pp": 78.0585,
+            "percentage": 25.034408974245494,
+            "mods": [],
+            "date": "2020-03-09T13:38:14+00:00"
+        },
+        {
+            "beatmapset_id": 1001305,
+            "beatmap_id": 2096057,
+            "acc": 0.881104033970276,
+            "pp": 77.9825,
+            "percentage": 23.782688525533217,
+            "mods": [],
+            "date": "2020-04-16T11:36:59+00:00"
+        },
+        {
+            "beatmapset_id": 572387,
+            "beatmap_id": 1255280,
+            "acc": 0.9395973154362416,
+            "pp": 77.8929,
+            "percentage": 22.593554099256554,
+            "mods": [],
+            "date": "2020-03-08T08:11:23+00:00"
+        },
+        {
+            "beatmapset_id": 219763,
+            "beatmap_id": 514518,
+            "acc": 0.8896247240618101,
+            "pp": 77.3993,
+            "percentage": 21.463876394293727,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-03-02T06:49:17+00:00"
+        },
+        {
+            "beatmapset_id": 752526,
+            "beatmap_id": 1601083,
+            "acc": 0.8652482269503546,
+            "pp": 76.8343,
+            "percentage": 20.39068257457904,
+            "mods": [],
+            "date": "2019-01-25T14:00:51+00:00"
+        },
+        {
+            "beatmapset_id": 596704,
+            "beatmap_id": 1263997,
+            "acc": 0.8883696780893042,
+            "pp": 76.742,
+            "percentage": 19.371148445850086,
+            "mods": [],
+            "date": "2019-05-22T13:42:39+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762729,
+            "acc": 0.9119496855345912,
+            "pp": 76.7259,
+            "percentage": 18.402591023557584,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-24T02:33:52+00:00"
+        },
+        {
+            "beatmapset_id": 572387,
+            "beatmap_id": 1363523,
+            "acc": 0.9414414414414415,
+            "pp": 75.5453,
+            "percentage": 17.4824614723797,
+            "mods": [
+                "HD"
+            ],
+            "date": "2020-03-08T08:19:40+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675844,
+            "acc": 0.837696335078534,
+            "pp": 73.649,
+            "percentage": 16.608338398760715,
+            "mods": [],
+            "date": "2020-03-11T12:58:03+00:00"
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 2030431,
+            "acc": 0.72,
+            "pp": 72.0175,
+            "percentage": 15.777921478822678,
+            "mods": [],
+            "date": "2020-04-02T16:20:10+00:00"
+        },
+        {
+            "beatmapset_id": 754219,
+            "beatmap_id": 1587909,
+            "acc": 0.9184523809523809,
+            "pp": 70.9409,
+            "percentage": 14.989025404881545,
+            "mods": [],
+            "date": "2019-01-19T07:08:13+00:00"
+        },
+        {
+            "beatmapset_id": 559248,
+            "beatmap_id": 1195035,
+            "acc": 0.9099794238683128,
+            "pp": 70.4499,
+            "percentage": 14.239574134637467,
+            "mods": [],
+            "date": "2020-03-10T05:17:17+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762727,
+            "acc": 0.9119496855345912,
+            "pp": 69.7292,
+            "percentage": 13.527595427905592,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-11-04T01:12:38+00:00"
+        },
+        {
+            "beatmapset_id": 430590,
+            "beatmap_id": 949456,
+            "acc": 0.9292779426310583,
+            "pp": 68.5396,
+            "percentage": 12.851215656510313,
+            "mods": [],
+            "date": "2019-02-05T14:51:26+00:00"
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1810299,
+            "acc": 0.8737373737373737,
+            "pp": 68.1806,
+            "percentage": 12.208654873684797,
+            "mods": [],
+            "date": "2019-02-18T14:31:21+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675839,
+            "acc": 0.8341584158415841,
+            "pp": 68.0201,
+            "percentage": 11.598222130000556,
+            "mods": [],
+            "date": "2020-04-02T16:31:10+00:00"
+        },
+        {
+            "beatmapset_id": 814371,
+            "beatmap_id": 2060955,
+            "acc": 0.939117199391172,
+            "pp": 67.209,
+            "percentage": 11.018311023500528,
+            "mods": [],
+            "date": "2020-03-23T01:20:18+00:00"
+        },
+        {
+            "beatmapset_id": 219763,
+            "beatmap_id": 514515,
+            "acc": 0.9320594479830149,
+            "pp": 66.2427,
+            "percentage": 10.467395472325501,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-27T13:00:00+00:00"
+        },
+        {
+            "beatmapset_id": 596704,
+            "beatmap_id": 1264070,
+            "acc": 0.9446308724832215,
+            "pp": 66.1425,
+            "percentage": 9.944025698709225,
+            "mods": [],
+            "date": "2020-03-09T08:30:10+00:00"
+        },
+        {
+            "beatmapset_id": 754219,
+            "beatmap_id": 1588277,
+            "acc": 0.9330601092896175,
+            "pp": 65.587,
+            "percentage": 9.446824413773763,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-02-07T10:46:38+00:00"
+        },
+        {
+            "beatmapset_id": 431082,
+            "beatmap_id": 930498,
+            "acc": 0.8880597014925373,
+            "pp": 65.5625,
+            "percentage": 8.974483193085076,
+            "mods": [],
+            "date": "2020-03-09T14:10:07+00:00"
+        },
+        {
+            "beatmapset_id": 371128,
+            "beatmap_id": 814293,
+            "acc": 0.9006734006734006,
+            "pp": 64.5889,
+            "percentage": 8.52575903343082,
+            "mods": [],
+            "date": "2019-03-08T05:07:37+00:00"
+        },
+        {
+            "beatmapset_id": 81653,
+            "beatmap_id": 226518,
+            "acc": 0.9072164948453608,
+            "pp": 64.5336,
+            "percentage": 8.09947108175928,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-26T11:53:56+00:00"
+        },
+        {
+            "beatmapset_id": 685287,
+            "beatmap_id": 1450274,
+            "acc": 0.8970588235294118,
+            "pp": 64.3461,
+            "percentage": 7.694497527671315,
+            "mods": [],
+            "date": "2019-01-19T12:22:08+00:00"
+        },
+        {
+            "beatmapset_id": 167604,
+            "beatmap_id": 407041,
+            "acc": 0.8601651186790505,
+            "pp": 64.1734,
+            "percentage": 7.30977265128775,
+            "mods": [],
+            "date": "2019-03-03T03:07:19+00:00"
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1153219,
+            "acc": 0.8482384823848238,
+            "pp": 62.3922,
+            "percentage": 6.944284018723361,
+            "mods": [],
+            "date": "2019-02-15T13:55:54+00:00"
+        },
+        {
+            "beatmapset_id": 190961,
+            "beatmap_id": 483970,
+            "acc": 0.9101307189542484,
+            "pp": 62.3036,
+            "percentage": 6.597069817787194,
+            "mods": [],
+            "date": "2020-03-11T14:11:05+00:00"
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1810372,
+            "acc": 0.8205882352941176,
+            "pp": 62.1148,
+            "percentage": 6.267216326897833,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-04-18T11:20:09+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675830,
+            "acc": 0.8541666666666666,
+            "pp": 61.7183,
+            "percentage": 5.953855510552941,
+            "mods": [],
+            "date": "2020-03-09T13:54:28+00:00"
+        },
+        {
+            "beatmapset_id": 431082,
+            "beatmap_id": 930497,
+            "acc": 0.8991416309012875,
+            "pp": 61.41,
+            "percentage": 5.656162735025293,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-24T10:13:10+00:00"
+        },
+        {
+            "beatmapset_id": 623924,
+            "beatmap_id": 1474947,
+            "acc": 0.8766025641025641,
+            "pp": 60.644,
+            "percentage": 5.3733545982740285,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-25T10:34:28+00:00"
+        },
+        {
+            "beatmapset_id": 998531,
+            "beatmap_id": 2093539,
+            "acc": 0.8692480359147026,
+            "pp": 60.3386,
+            "percentage": 5.104686868360327,
+            "mods": [],
+            "date": "2020-03-07T08:34:08+00:00"
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1846226,
+            "acc": 0.9304347826086956,
+            "pp": 59.715,
+            "percentage": 4.84945252494231,
+            "mods": [],
+            "date": "2019-09-16T13:55:43+00:00"
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1149303,
+            "acc": 0.8158508158508159,
+            "pp": 58.5439,
+            "percentage": 4.606979898695195,
+            "mods": [],
+            "date": "2019-02-15T13:58:36+00:00"
+        },
+        {
+            "beatmapset_id": 127712,
+            "beatmap_id": 323769,
+            "acc": 0.8833333333333333,
+            "pp": 56.6864,
+            "percentage": 4.376630903760435,
+            "mods": [],
+            "date": "2019-01-21T12:44:47+00:00"
+        },
+        {
+            "beatmapset_id": 606998,
+            "beatmap_id": 1324653,
+            "acc": 0.911689145793192,
+            "pp": 56.228,
+            "percentage": 4.157799358572413,
+            "mods": [],
+            "date": "2019-02-19T08:03:35+00:00"
+        },
+        {
+            "beatmapset_id": 206284,
+            "beatmap_id": 486513,
+            "acc": 0.9489795918367347,
+            "pp": 55.8787,
+            "percentage": 3.949909390643792,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-24T02:56:08+00:00"
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1149638,
+            "acc": 0.907103825136612,
+            "pp": 55.7556,
+            "percentage": 3.752413921111602,
+            "mods": [],
+            "date": "2019-01-21T12:52:02+00:00"
+        },
+        {
+            "beatmapset_id": 652412,
+            "beatmap_id": 1383388,
+            "acc": 0.8166666666666667,
+            "pp": 55.4109,
+            "percentage": 3.5647932250560217,
+            "mods": [],
+            "date": "2019-09-24T01:48:38+00:00"
+        },
+        {
+            "beatmapset_id": 82326,
+            "beatmap_id": 232288,
+            "acc": 0.9129554655870445,
+            "pp": 55.3811,
+            "percentage": 3.3865535638032207,
+            "mods": [],
+            "date": "2019-04-17T09:49:10+00:00"
+        },
+        {
+            "beatmapset_id": 770306,
+            "beatmap_id": 1619562,
+            "acc": 0.8826429980276134,
+            "pp": 55.342,
+            "percentage": 3.2172258856130593,
+            "mods": [],
+            "date": "2019-09-16T13:44:33+00:00"
+        },
+        {
+            "beatmapset_id": 1001305,
+            "beatmap_id": 2096058,
+            "acc": 0.8834498834498834,
+            "pp": 55.1112,
+            "percentage": 3.0563645913324065,
+            "mods": [],
+            "date": "2020-04-09T14:41:05+00:00"
+        },
+        {
+            "beatmapset_id": 661919,
+            "beatmap_id": 1414507,
+            "acc": 0.8194856577645895,
+            "pp": 54.7544,
+            "percentage": 2.903546361765786,
+            "mods": [],
+            "date": "2019-09-20T12:43:43+00:00"
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762733,
+            "acc": 0.993127147766323,
+            "pp": 52.9887,
+            "percentage": 2.7583690436774964,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-26T11:32:27+00:00"
+        },
+        {
+            "beatmapset_id": 398921,
+            "beatmap_id": 872657,
+            "acc": 0.9096109839816934,
+            "pp": 52.8913,
+            "percentage": 2.6204505914936216,
+            "mods": [],
+            "date": "2019-01-19T08:06:09+00:00"
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1815491,
+            "acc": 0.850974930362117,
+            "pp": 52.8566,
+            "percentage": 2.4894280619189404,
+            "mods": [],
+            "date": "2019-03-04T07:35:58+00:00"
+        },
+        {
+            "beatmapset_id": 459149,
+            "beatmap_id": 983692,
+            "acc": 0.9311827956989247,
+            "pp": 52.7268,
+            "percentage": 2.3649566588229933,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-24T03:09:42+00:00"
+        },
+        {
+            "beatmapset_id": 455069,
+            "beatmap_id": 981047,
+            "acc": 0.9119047619047619,
+            "pp": 52.2428,
+            "percentage": 2.2467088258818437,
+            "mods": [],
+            "date": "2019-03-16T09:16:41+00:00"
+        },
+        {
+            "beatmapset_id": 623924,
+            "beatmap_id": 1474944,
+            "acc": 0.9192799070847851,
+            "pp": 52.1681,
+            "percentage": 2.134373384587751,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-25T10:27:17+00:00"
+        },
+        {
+            "beatmapset_id": 485903,
+            "beatmap_id": 1065224,
+            "acc": 0.8773584905660378,
+            "pp": 52.0669,
+            "percentage": 2.0276547153583633,
+            "mods": [],
+            "date": "2019-01-19T05:07:57+00:00"
+        },
+        {
+            "beatmapset_id": 864354,
+            "beatmap_id": 1807739,
+            "acc": 0.9328537170263789,
+            "pp": 51.8789,
+            "percentage": 1.926271979590445,
+            "mods": [],
+            "date": "2019-12-01T01:52:37+00:00"
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1150597,
+            "acc": 0.8203309692671394,
+            "pp": 51.1017,
+            "percentage": 1.829958380610923,
+            "mods": [],
+            "date": "2020-03-08T08:07:05+00:00"
+        },
+        {
+            "beatmapset_id": 798261,
+            "beatmap_id": 1676342,
+            "acc": 0.8795518207282913,
+            "pp": 51.0064,
+            "percentage": 1.7384604615803767,
+            "mods": [],
+            "date": "2020-04-18T07:02:20+00:00"
+        },
+        {
+            "beatmapset_id": 76048,
+            "beatmap_id": 214547,
+            "acc": 0.8833333333333333,
+            "pp": 50.7544,
+            "percentage": 1.651537438501358,
+            "mods": [],
+            "date": "2019-02-06T09:52:50+00:00"
+        },
+        {
+            "beatmapset_id": 420765,
+            "beatmap_id": 999566,
+            "acc": 0.8136645962732919,
+            "pp": 50.0099,
+            "percentage": 1.5689605665762898,
+            "mods": [],
+            "date": "2020-03-08T08:03:31+00:00"
+        },
+        {
+            "beatmapset_id": 717343,
+            "beatmap_id": 1516895,
+            "acc": 0.9766081871345029,
+            "pp": 48.8554,
+            "percentage": 1.4905125382474753,
+            "mods": [
+                "HR",
+                "DT"
+            ],
+            "date": "2020-03-12T02:39:00+00:00"
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675833,
+            "acc": 0.8062015503875969,
+            "pp": 48.4904,
+            "percentage": 1.4159869113351014,
+            "mods": [],
+            "date": "2020-03-09T13:49:26+00:00"
+        },
+        {
+            "beatmapset_id": 431082,
+            "beatmap_id": 931698,
+            "acc": 0.7847478474784748,
+            "pp": 47.9457,
+            "percentage": 1.3451875657683463,
+            "mods": [],
+            "date": "2020-04-02T13:55:07+00:00"
+        },
+        {
+            "beatmapset_id": 774632,
+            "beatmap_id": 1628056,
+            "acc": 0.8275261324041812,
+            "pp": 47.5836,
+            "percentage": 1.2779281874799289,
+            "mods": [],
+            "date": "2020-03-08T08:43:13+00:00"
+        },
+        {
+            "beatmapset_id": 114220,
+            "beatmap_id": 944710,
+            "acc": 0.9288194444444444,
+            "pp": 46.7887,
+            "percentage": 1.2140317781059324,
+            "mods": [],
+            "date": "2020-03-08T15:04:34+00:00"
+        },
+        {
+            "beatmapset_id": 295753,
+            "beatmap_id": 742108,
+            "acc": 0.9561091340450771,
+            "pp": 46.5299,
+            "percentage": 1.1533301892006358,
+            "mods": [],
+            "date": "2020-04-09T15:00:46+00:00"
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1827412,
+            "acc": 0.9657894736842105,
+            "pp": 45.8985,
+            "percentage": 1.0956636797406039,
+            "mods": [],
+            "date": "2020-03-09T07:55:02+00:00"
+        },
+        {
+            "beatmapset_id": 68103,
+            "beatmap_id": 197337,
+            "acc": 0.8659722222222223,
+            "pp": 45.8596,
+            "percentage": 1.0408804957535738,
+            "mods": [],
+            "date": "2019-01-19T04:55:54+00:00"
+        },
+        {
+            "beatmapset_id": 427558,
+            "beatmap_id": 933143,
+            "acc": 0.8469735720375107,
+            "pp": 45.0192,
+            "percentage": 0.988836470965895,
+            "mods": [
+                "HD"
+            ],
+            "date": "2019-09-20T13:31:31+00:00"
+        },
+        {
+            "beatmapset_id": 158932,
+            "beatmap_id": 392254,
+            "acc": 0.9554655870445344,
+            "pp": 44.9413,
+            "percentage": 0.9393946474176,
+            "mods": [],
+            "date": "2019-01-18T09:41:24+00:00"
+        },
+        {
+            "beatmapset_id": 23254,
+            "beatmap_id": 79749,
+            "acc": 0.8664658634538153,
+            "pp": 44.6391,
+            "percentage": 0.8924249150467202,
+            "mods": [],
+            "date": "2019-02-15T13:00:07+00:00"
+        },
+        {
+            "beatmapset_id": 864354,
+            "beatmap_id": 1807741,
+            "acc": 0.9811827956989247,
+            "pp": 43.7129,
+            "percentage": 0.8478036692943841,
+            "mods": [],
+            "date": "2018-12-27T16:18:17+00:00"
+        },
+        {
+            "beatmapset_id": 864354,
+            "beatmap_id": 1809202,
+            "acc": 0.8949169110459433,
+            "pp": 43.2537,
+            "percentage": 0.8054134858296649,
+            "mods": [],
+            "date": "2020-03-08T04:08:05+00:00"
+        },
+        {
+            "beatmapset_id": 352570,
+            "beatmap_id": 785982,
+            "acc": 0.8783783783783784,
+            "pp": 43.1503,
+            "percentage": 0.7651428115381815,
+            "mods": [],
+            "date": "2019-01-22T09:21:30+00:00"
+        },
+        {
+            "beatmapset_id": 427558,
+            "beatmap_id": 1085439,
+            "acc": 0.9784075573549258,
+            "pp": 42.7168,
+            "percentage": 0.7268856709612724,
+            "mods": [
+                "HD",
+                "HR",
+                "SD"
+            ],
+            "date": "2018-12-22T13:44:00+00:00"
+        },
+        {
+            "beatmapset_id": 819349,
+            "beatmap_id": 1717855,
+            "acc": 0.9381012128816395,
+            "pp": 42.7154,
+            "percentage": 0.6905413874132088,
+            "mods": [],
+            "date": "2019-02-16T12:06:26+00:00"
+        },
+        {
+            "beatmapset_id": 162675,
+            "beatmap_id": 401126,
+            "acc": 0.7900372439478585,
+            "pp": 42.1468,
+            "percentage": 0.6560143180425483,
+            "mods": [],
+            "date": "2020-02-22T08:48:51+00:00"
+        },
+        {
+            "beatmapset_id": 783272,
+            "beatmap_id": 1646233,
+            "acc": 0.9233870967741935,
+            "pp": 41.3231,
+            "percentage": 0.6232136021404209,
+            "mods": [],
+            "date": "2019-01-18T12:44:23+00:00"
+        }
+    ],
+    "most_played": [
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1849505,
+            "count": 40
+        },
+        {
+            "beatmapset_id": 325899,
+            "beatmap_id": 793858,
+            "count": 38
+        },
+        {
+            "beatmapset_id": 719434,
+            "beatmap_id": 1519342,
+            "count": 37
+        },
+        {
+            "beatmapset_id": 623924,
+            "beatmap_id": 1474946,
+            "count": 37
+        },
+        {
+            "beatmapset_id": 752526,
+            "beatmap_id": 1584191,
+            "count": 36
+        },
+        {
+            "beatmapset_id": 658433,
+            "beatmap_id": 1407234,
+            "count": 36
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1827558,
+            "count": 35
+        },
+        {
+            "beatmapset_id": 127712,
+            "beatmap_id": 323769,
+            "count": 35
+        },
+        {
+            "beatmapset_id": 47007,
+            "beatmap_id": 146394,
+            "count": 35
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1846226,
+            "count": 34
+        },
+        {
+            "beatmapset_id": 219763,
+            "beatmap_id": 514518,
+            "count": 34
+        },
+        {
+            "beatmapset_id": 864354,
+            "beatmap_id": 1809202,
+            "count": 33
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1149303,
+            "count": 33
+        },
+        {
+            "beatmapset_id": 398921,
+            "beatmap_id": 873811,
+            "count": 33
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1854034,
+            "count": 32
+        },
+        {
+            "beatmapset_id": 652412,
+            "beatmap_id": 1396152,
+            "count": 32
+        },
+        {
+            "beatmapset_id": 427558,
+            "beatmap_id": 933143,
+            "count": 32
+        },
+        {
+            "beatmapset_id": 167604,
+            "beatmap_id": 407041,
+            "count": 32
+        },
+        {
+            "beatmapset_id": 81653,
+            "beatmap_id": 230050,
+            "count": 31
+        },
+        {
+            "beatmapset_id": 891338,
+            "beatmap_id": 1863231,
+            "count": 30
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675839,
+            "count": 30
+        },
+        {
+            "beatmapset_id": 574214,
+            "beatmap_id": 1243083,
+            "count": 30
+        },
+        {
+            "beatmapset_id": 431082,
+            "beatmap_id": 930497,
+            "count": 30
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1810372,
+            "count": 29
+        },
+        {
+            "beatmapset_id": 346218,
+            "beatmap_id": 1172170,
+            "count": 29
+        },
+        {
+            "beatmapset_id": 462896,
+            "beatmap_id": 996113,
+            "count": 29
+        },
+        {
+            "beatmapset_id": 96103,
+            "beatmap_id": 260348,
+            "count": 29
+        },
+        {
+            "beatmapset_id": 9819,
+            "beatmap_id": 61663,
+            "count": 29
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1810299,
+            "count": 28
+        },
+        {
+            "beatmapset_id": 665179,
+            "beatmap_id": 1421190,
+            "count": 28
+        },
+        {
+            "beatmapset_id": 606998,
+            "beatmap_id": 1324653,
+            "count": 28
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1149638,
+            "count": 28
+        },
+        {
+            "beatmapset_id": 427558,
+            "beatmap_id": 1085439,
+            "count": 28
+        },
+        {
+            "beatmapset_id": 652412,
+            "beatmap_id": 1383388,
+            "count": 27
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1153219,
+            "count": 27
+        },
+        {
+            "beatmapset_id": 533712,
+            "beatmap_id": 1130706,
+            "count": 27
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762728,
+            "count": 26
+        },
+        {
+            "beatmapset_id": 626406,
+            "beatmap_id": 1359903,
+            "count": 26
+        },
+        {
+            "beatmapset_id": 606998,
+            "beatmap_id": 1282215,
+            "count": 26
+        },
+        {
+            "beatmapset_id": 717343,
+            "beatmap_id": 1516895,
+            "count": 25
+        },
+        {
+            "beatmapset_id": 346218,
+            "beatmap_id": 1438225,
+            "count": 25
+        },
+        {
+            "beatmapset_id": 114220,
+            "beatmap_id": 944710,
+            "count": 25
+        },
+        {
+            "beatmapset_id": 431082,
+            "beatmap_id": 931698,
+            "count": 25
+        },
+        {
+            "beatmapset_id": 158932,
+            "beatmap_id": 388623,
+            "count": 25
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 2030431,
+            "count": 24
+        },
+        {
+            "beatmapset_id": 720294,
+            "beatmap_id": 1806994,
+            "count": 24
+        },
+        {
+            "beatmapset_id": 572387,
+            "beatmap_id": 1363523,
+            "count": 24
+        },
+        {
+            "beatmapset_id": 596704,
+            "beatmap_id": 1264070,
+            "count": 24
+        },
+        {
+            "beatmapset_id": 911245,
+            "beatmap_id": 1901784,
+            "count": 23
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762727,
+            "count": 23
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675842,
+            "count": 23
+        },
+        {
+            "beatmapset_id": 609189,
+            "beatmap_id": 1419961,
+            "count": 23
+        },
+        {
+            "beatmapset_id": 572387,
+            "beatmap_id": 1255280,
+            "count": 23
+        },
+        {
+            "beatmapset_id": 162675,
+            "beatmap_id": 401126,
+            "count": 23
+        },
+        {
+            "beatmapset_id": 865746,
+            "beatmap_id": 1815491,
+            "count": 22
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675834,
+            "count": 22
+        },
+        {
+            "beatmapset_id": 665235,
+            "beatmap_id": 1407931,
+            "count": 22
+        },
+        {
+            "beatmapset_id": 158932,
+            "beatmap_id": 392254,
+            "count": 22
+        },
+        {
+            "beatmapset_id": 125075,
+            "beatmap_id": 318537,
+            "count": 22
+        },
+        {
+            "beatmapset_id": 864354,
+            "beatmap_id": 1807741,
+            "count": 21
+        },
+        {
+            "beatmapset_id": 318842,
+            "beatmap_id": 710727,
+            "count": 21
+        },
+        {
+            "beatmapset_id": 219763,
+            "beatmap_id": 514515,
+            "count": 21
+        },
+        {
+            "beatmapset_id": 620910,
+            "beatmap_id": 1311888,
+            "count": 20
+        },
+        {
+            "beatmapset_id": 398921,
+            "beatmap_id": 872657,
+            "count": 20
+        },
+        {
+            "beatmapset_id": 352570,
+            "beatmap_id": 785982,
+            "count": 20
+        },
+        {
+            "beatmapset_id": 88895,
+            "beatmap_id": 242003,
+            "count": 20
+        },
+        {
+            "beatmapset_id": 542081,
+            "beatmap_id": 1150597,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 455069,
+            "beatmap_id": 975519,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 427558,
+            "beatmap_id": 937556,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 392495,
+            "beatmap_id": 854598,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 190961,
+            "beatmap_id": 483970,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 144338,
+            "beatmap_id": 358558,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 76048,
+            "beatmap_id": 214547,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 68103,
+            "beatmap_id": 197337,
+            "count": 18
+        },
+        {
+            "beatmapset_id": 819349,
+            "beatmap_id": 1717854,
+            "count": 17
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675833,
+            "count": 17
+        },
+        {
+            "beatmapset_id": 430590,
+            "beatmap_id": 949456,
+            "count": 17
+        },
+        {
+            "beatmapset_id": 1015930,
+            "beatmap_id": 2126411,
+            "count": 16
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762731,
+            "count": 16
+        },
+        {
+            "beatmapset_id": 609569,
+            "beatmap_id": 1289001,
+            "count": 16
+        },
+        {
+            "beatmapset_id": 559248,
+            "beatmap_id": 1188777,
+            "count": 16
+        },
+        {
+            "beatmapset_id": 144338,
+            "beatmap_id": 359972,
+            "count": 16
+        },
+        {
+            "beatmapset_id": 814371,
+            "beatmap_id": 2060955,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 864354,
+            "beatmap_id": 1807739,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 859783,
+            "beatmap_id": 1797542,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 842412,
+            "beatmap_id": 1762733,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 685287,
+            "beatmap_id": 1450273,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 665179,
+            "beatmap_id": 1407819,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 620910,
+            "beatmap_id": 1315384,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 114220,
+            "beatmap_id": 947526,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 376552,
+            "beatmap_id": 824389,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 167604,
+            "beatmap_id": 407040,
+            "count": 15
+        },
+        {
+            "beatmapset_id": 442510,
+            "beatmap_id": 1066765,
+            "count": 14
+        },
+        {
+            "beatmapset_id": 431082,
+            "beatmap_id": 929905,
+            "count": 14
+        },
+        {
+            "beatmapset_id": 411894,
+            "beatmap_id": 893696,
+            "count": 14
+        },
+        {
+            "beatmapset_id": 96103,
+            "beatmap_id": 257793,
+            "count": 14
+        },
+        {
+            "beatmapset_id": 1001305,
+            "beatmap_id": 2096051,
+            "count": 13
+        },
+        {
+            "beatmapset_id": 891338,
+            "beatmap_id": 1863228,
+            "count": 13
+        },
+        {
+            "beatmapset_id": 873811,
+            "beatmap_id": 1827412,
+            "count": 13
+        },
+        {
+            "beatmapset_id": 798007,
+            "beatmap_id": 1675844,
+            "count": 13
+        }
+    ],
+    "recent_played": [],
+    "recent24h": [],
+    "fav_maps": [
+        {
+            "beatmapset_id": 864354
+        },
+        {
+            "beatmapset_id": 140662
+        }
+    ]
+}
