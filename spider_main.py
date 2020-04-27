@@ -263,17 +263,6 @@ def playerInfoUpdate_MultiDimensions(dirs):
             process += 1
 
 
-a = lib_data.getJsonInfo("https://syrin.me/pp+/api/user/lncoding")
-print(a)
-print(type(a))
-
-
-
-
-
-
-
-
-
-
+def UpdatePlayerInfo():
+    return 0
 

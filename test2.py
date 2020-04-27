@@ -30,5 +30,3 @@ print(osu.ppv2(stars.aim, stars.speed, bmap=bmap))
 
 
 
-
-

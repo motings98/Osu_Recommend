@@ -35,6 +35,8 @@ recentActicity_api = "/recent_activity?offset=%d&limit=50"           # recent ac
 favmaps_api = "/beatmapsets/favourite?offset=%d&limit=50"            # 点过红心的图 上限100
 recent24_api = "/scores/recent?mode=osu&offset=0&limit=50"                     # 最近24小时打完并上传成绩的图
 
+pp_plus_api = "https://syrin.me/pp+/api/user/"
+
 
 def jsonViewer(url):             # 获取json，并规格化存入到本地文件中
     r = requests.get(url)
@@ -147,4 +149,4 @@ def getJsonInfo(url,params = None):
 
     return content
 
-a = OsuPlayer.__init__()
+
