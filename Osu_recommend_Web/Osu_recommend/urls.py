@@ -19,7 +19,7 @@ from Osu_recommend_Web.firstWEB import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index),
-    path('calculate', views.CalSimilarity_Web),
-    path('cal', views.CalSimilarity_Web_Implementation)
+    path('', views.index,name = 'index'),
+    path('cal/', views.CalSimilarity_Web,name = 'cal'),
+    path('cal/calculate/', views.CalSimilarity_Web_Implementation,name = 'calculate')
 ]
