@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结果页</title>
+</head>
+<body>
+<form method="POST" action="../r2c/">
+    {% csrf_token %}
+    <a name="ResultContent">
+    <h1>{{ u1n }}与{{ u2n }}的相似度为：</h1>
+    <h2>{{ data }}</h2>
+    <textarea rows="5" cols="40" placeholder="在此输入反馈，不输也没事" name="FeedbackContent"></textarea>
+        <br>
+    <input type="submit"  name="Back" value="提交/返回">
+    </a>
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算页面</title>
+</head>
+<body>
+<form method="POST" action="../calculate/">
+    {% csrf_token %}
+    <h1>输入用户数字id</h1>也就是用户主页url的后面那串数字<br>
+    用户1<input type="number" name="user1"><br>
+    用户2<input type="number" name="user2"><br>
+    <input type="submit" value="提交">
+    <br>ps:由于请求速度问题，请耐心等待，不要多次点击提交。不然我的小霸王服务器程序会出错。
+    <br>pps:pp+有时候真的实在是太慢了，你甚至可以先切出去干点别的，一般不会出大问题，等就完事了。
+
+</form>
+</body>
+</html>
