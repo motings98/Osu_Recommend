@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import lib_data
 import user_rating
+from django.shortcuts import redirect
 
 # Create your views here.
 
@@ -11,6 +12,7 @@ def index(request):
 
 def CalSimilarity_Web(request):
     return render(request, 'cal.html')
+
 
 
 def CalSimilarity_Web_Implementation(request):
@@ -36,4 +38,4 @@ def ResultPageFeedback(request):
     f = open("feedback.txt","a", encoding="utf-8")
     f.write(str)
     f.close()
-    return render(request, 'cal.html')
+    return redirect("../cal")
