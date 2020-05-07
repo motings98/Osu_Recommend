@@ -19,9 +19,11 @@ from web.firstWEB import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index,name = 'index'),
-    path('cal/', views.CalSimilarity_Web,name = 'cal'),
-    path('calculate/', views.CalSimilarity_Web_Implementation,name = 'calculate'),
-    path('r2c/', views.ResultPageFeedback, name = 'backtocal')
+    path('', views.index,name='index'),
+    path('cal/', views.CalSimilarity_Web,name='cal'),
+    path('calculate/', views.CalSimilarity_Web_Implementation,name='calculate'),
+    path('r2c/', views.ResultPageFeedback, name='r2c'),
+    path('request_timeout', views.RequestTimeOut, name='e2c'),
+    path('rec_main/', views.Index2Rec, name='i2c'),
 
 ]

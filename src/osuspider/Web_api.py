@@ -6,8 +6,8 @@ getuser_api = "/api/get_user"       # 获取用户信息
 api_key = "a79d02baf6e68c39d4ff2f7ba24324b8bd360b77"
 getuser_params = {"k": "", "u": ""}
 getbeatmap_api = "/api/get_beatmaps"
-
 getrecent_api = "/api/get_user_recent"
+
 
 def getUserInfo(url):
     print("Getting User Info ...")

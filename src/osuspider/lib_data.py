@@ -6,6 +6,8 @@ import requests
 import time
 import os
 
+
+
 country_list = ["TEST","AU", "CA", "CN", "DE", "FR", "GB", "JP", "KR", "US"]
 
 '''
@@ -15,6 +17,7 @@ NOTICE:
 '''
 
 osu_main_url = "https://osu.ppy.sh"
+osu_user_url = "https://osu.ppy.sh/users/"
 
 user_agent_list = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
                     "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
@@ -38,36 +41,31 @@ recent24_api = "/scores/recent?mode=osu&offset=0&limit=50"                     #
 pp_plus_api = "https://syrin.me/pp+/api/user/"
 
 
-def jsonViewer(url):             # 获取json，并规格化存入到本地文件中
+def jsonViewer(url, filename):             # 获取json，并规格化存入到本地文件中
     r = requests.get(url)
     temp = json.loads(r.text)
-    content = json.dumps(temp, sort_keys=True, indent=4, separators=(',', ':'))
-    o = open('json_tmep.txt', 'a+', encoding='utf-8')
+    content = json.dumps(temp, indent=4, separators=(',', ':'))
+    o = open(filename + '.txt', 'a+', encoding='utf-8')
     o.write(content)
     o.close()
 
 
-
-
 def jsonPrettify(str):
-    content = json.dumps(str, sort_keys=True, indent=4, separators=(',', ':'))
+    content = json.dumps(str, indent=4, separators=(',', ':'))
     return content
 
 
-def htmlViewer(url):             # 获取html，并规格化存入到本地文件中
+def htmlViewer(url, filename):             # 获取html，并规格化存入到本地文件中
     r = requests.get(url)
     r.encoding = r.apparent_encoding
     demo = r.text
     soup = BeautifulSoup(demo, "html.parser")
-    f = open("html_temp.txt", "a+", encoding='utf-8')
+    f = open(filename + ".txt", "a+", encoding='utf-8')
     f.write(soup.prettify())
     f.close()
 
 
-
-
-
-def fileWritein(filename,content):        # 写文件，参数为 文件名，内容
+def fileWritein(filename, content):        # 写文件，参数为 文件名，内容
     f = open(filename, "a+", encoding='utf-8')
     f.write(content)
     f.close()
@@ -150,3 +148,15 @@ def getJsonInfo(url,params = None):
     return content
 
 
+def getBackPath(n):  # 获取往上n级的路径
+    p = os.getcwd()
+    path_list = p.split("\\")
+    final_path = ""
+    for i in range(len(path_list) - n):
+        s = path_list[i]
+        final_path += s + "\\"
+    return final_path[:-1]
+
+
+root_dir = getBackPath(2)
+user_info_dir = getBackPath(2) + "/data/Userinfo/newpptotal/"

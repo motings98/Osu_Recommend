@@ -191,6 +191,19 @@ def getFavmaps(user_url):   # 点过红心的图上限是1000，而且一般没�
     return favmaps_list
 
 
+def getPPplus(user_dict):    # 传入已经get好的用户字典，并添加pp+信息
+    print("Getting PP+ info ...")
+    uid = user_dict["user_stats"]["user_url"].split("/")[4]
+    info = lib_data.getJsonInfo(lib_data.pp_plus_api + uid)
+    if info:
+        user_dict["user_stats"]["Acc_total"] = info.get("user_data")["AccuracyTotal"]
+        user_dict["user_stats"]["Precision_total"] = info.get("user_data")["PrecisionTotal"]
+        user_dict["user_stats"]["Flow_total"] = info.get("user_data")["FlowAimTotal"]
+        user_dict["user_stats"]["Jump_total"] = info.get("user_data")["JumpAimTotal"]
+        user_dict["user_stats"]["Speed_total"] = info.get("user_data")["SpeedTotal"]
+        user_dict["user_stats"]["Stamina_total"] = info.get("user_data")["StaminaTotal"]
+    return user_dict
+
 '''
 getPlayerInfo(url):
 传入用户主页url，返回一个存有用户信息的列表
@@ -200,7 +213,23 @@ list[4]为24小时内上传成绩的图的列表，列表里有n个字典，list
 '''
 
 
+def userNameRedirect(username):
+    url = lib_data.osu_user_url + username
+    r = requests.get(url)
+    content = r.text
+    soup = BeautifulSoup(content, "html.parser")
+    s = soup.find(id="json-extras")
+    final = json.loads(s.get_text())
+    uid = final["scoresBest"][0]["user_id"]
+    return uid
+
+
 def getPlayerInfo(url):
+    if "http" not in url:
+        uid = userNameRedirect(url)
+        url = lib_data.osu_user_url + str(uid)
+
+    store_path = lib_data.getBackPath(2) + "/data/UserInfo/newpptotal/"
     player_list = []
     user_info = Web_api.getUserInfo(url)
     user_name = user_info[0]["username"]
@@ -231,10 +260,23 @@ def getPlayerInfo(url):
     player_list.append(recent_plays)
     player_list.append(recent_24h)
     player_list.append(fav_maps)
+    player_dict = {}
+    player_dict["user_stats"] = player_list[0]
+    player_dict["best_plays"] = player_list[1]
+    player_dict["most_played"] = player_list[2]
+    player_dict["recent_played"] = player_list[3]
+    player_dict["recent24h"] = player_list[4]
+    player_dict["fav_maps"] = player_list[5]
 
-    return player_list
+    getPPplus(player_dict)
+
+    f = open(store_path + player_dict["user_stats"]["username"] + ".json" , "w+")
+    f.write(lib_data.jsonPrettify(player_dict))
+    print("Successfully Write in Player Info!!")
+    return player_dict
 
 
+''' 旧数据都有这些信息了，新数据也已经能靠getPlayerInfo自带这些信息了
 def playerInfoUpdate_MultiDimensions(dirs):
     files = os.listdir(dirs)
     process = 0
@@ -261,8 +303,8 @@ def playerInfoUpdate_MultiDimensions(dirs):
         else:
             print("Player Info Update Failed!")
             process += 1
+'''
 
 
-def UpdatePlayerInfo():
-    return 0
+
 

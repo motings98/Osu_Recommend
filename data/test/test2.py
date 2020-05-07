@@ -6,26 +6,49 @@ import sys
 import lib_data
 import json
 import os
+import numpy
+import spider_main
+import pickle
 
-def htmlOutput(url):
-    r = requests.get(url)
-    r.encoding = r.apparent_encoding
-    demo = r.text
-    soup = BeautifulSoup(demo, "html.parser")
-    f = open("html.txt", "a+", encoding='utf-8')
-    f.write(soup.prettify())
-    f.close()
+def Dict2List(dict):   # 将dict转化为list
+    list = []
+    for key in dict:
+        list.append(dict[key])
+    return list
 
-'''
-p = osu.parser()
-# bmap = p.map(open("./lib/beatmaps/es.osu"))
-bmap = p.map(open("https://osu.ppy.sh/osu/774965"))
 
-stars = osu.diff_calc().calc(bmap)
-print("%g stars" % stars.total)
-print("%g stars" % stars.aim)
+def DimensionNormalize(dict_a, dict_b):
+    for key in dict_a:
+        if not key in dict_b:
+            dict_b[key] = 0
 
-print(osu.ppv2(stars.aim, stars.speed, bmap=bmap))
-'''
+    for key in dict_b:
+        if not key in dict_a:
+            dict_a[key] = 0
+
+    print(dict_a)
+    print(dict_b)
+
+    list_a = []
+    list_b = []
+
+    for i in sorted(dict_a):
+        list_a.append(dict_a[i])
+    for i in sorted(dict_b):
+        list_b.append(dict_b[i])
+
+    print(list_a)
+    print(list_b)
+
+
+# test = open(lib_data.getBackPath(1) + "/UserInfo/matrix/user_matrix.pkl", "rb")
+
+
+
+
+
+
+
+
 
 
