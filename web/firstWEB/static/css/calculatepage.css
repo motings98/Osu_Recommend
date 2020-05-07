@@ -1,0 +1,92 @@
+input::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  input::-moz-input-placeholder {
+    color: #ccc;
+  }
+  input::-ms-input-placeholder {
+    color: #ccc;
+  }
+
+html,body{
+     margin:0; 
+     height:100%; 
+}
+
+body{
+    background-image: url("../images/tsukinami.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.main-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #404040;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+.main-container h1{
+    text-align: center;
+    font-size: 45px;
+    color: #505050;
+    font-style: italic;
+}
+
+#userinput{
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    margin: 100px auto;
+    outline: none;
+    margin-bottom: 0;
+}
+
+.note{
+    text-align: center;
+}
+
+
+#button1{
+    display: block;
+    margin: 50px auto;
+    height: 30px;
+    width: 70px;
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    color: #404040;
+
+}
+
+#button1:hover{
+    cursor: pointer;
+}
+
+.description{
+    
+    text-align: center;
+    margin: 100px auto;
+}

@@ -1,0 +1,33 @@
+body{
+    background-image: url("../images/bg1.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.logo-container{
+    margin-top: 10%;
+    height: 600px;
+    text-align: center;
+}
+
+#logo{
+    margin: 0 auto;
+}
+
+#iorb{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0 30px;
+    border: none;
+    color: #404040;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+
+#iorb:hover{
+    cursor: pointer;
+}
+
